@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="382dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="8dp"
+        android:text="Name:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/rollNumberTextView"
+        android:layout_width="378dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="16dp"
+        android:text="Roll Number:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/reasonEditText"
+        android:layout_width="378dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Reason for Outpass" />
+
+    <EditText
+        android:id="@+id/dateFromEditText"
+        android:layout_width="380dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Date From (YYYY-MM-DD)" />
+
+    <EditText
+        android:id="@+id/dateToEditText"
+        android:layout_width="375dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Date To (YYYY-MM-DD)" />
+
+    <EditText
+        android:id="@+id/outTimeEditText"
+        android:layout_width="382dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Out Time (HH:MM AM/PM)" />
+
+    <EditText
+        android:id="@+id/inTimeEditText"
+        android:layout_width="385dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="16dp"
+        android:hint="In Time (HH:MM AM/PM)" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="380dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:text="Submit Request" />
+</LinearLayout>
